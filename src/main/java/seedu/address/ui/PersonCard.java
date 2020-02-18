@@ -56,7 +56,7 @@ public class PersonCard extends UiPart<Region> {
 
     @Override
     public boolean equals(Object other) {
-        // short circuit if same object
+        // short circuit if same object.
         if (other == this) {
             return true;
         }
