@@ -237,6 +237,22 @@ Diet Tracker will help you achieve your ideal weight and body mass!
 
 You can store all your food intake for any day and calculate useful information required for you to achieve your goal!
 
+Here are some of the prefixes used:
+|===
+|*Prefix* | *Representation*
+| -n | Name of Food
+| -c | Calories
+| -i | Index
+| -g | Gain
+| -m | Maintain
+| -l | Lose
+| -a | All
+| -d | By Past Num of Days
+| -t | By Tag
+| -h | Height
+| -w | Weight
+|===
+
 '''
 //end::diettrackerintro[]
 
@@ -938,7 +954,7 @@ Format: +
 
 Valid examples: +
 
-`paid 2` - This command means that the Person at index 2 has paid you the full amount they owe you. +
+`paid 2` - This command means that the person at index 2 has paid you the full amount they owe you. +
 
 `paid 3 3.90` - This command means that the person at index 3 has paid you $3.90.
 
