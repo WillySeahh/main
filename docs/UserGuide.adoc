@@ -608,7 +608,7 @@ and the <<deleteexpectedoutcome, expected outcome>> after using the
 `delete` command.
 
 *Summary of Delete Command:* +
-`delete` You can delete a food item based on the previous list of Foods that you have listed. +
+`delete` You can delete a food item based on the previous list of foods that you have listed. +
 
 [[howtousedeletecommand]]
 *How to use the Delete Command:*
@@ -732,7 +732,7 @@ With EYLAH, splitting a large receipt with friends has never been easier! All yo
 it's price and the names involved in splitting the cost of that item and EYLAH will calculate the rest for you!
 
 We have drawn some diagrams to help you visualize the workflow of
-Expense Splitter. Click <<AppendixA, here>> to find out more!
+Expense Splitter. Click <<AppendixB, here>> to find out more!
 
 
 Here are some of the prefixes used in Expense Splitter: +
@@ -1269,6 +1269,11 @@ TA-Tracker in the form of lines of text |
 item in a list.
 
 | Activity Diagram | This refers to the workflow of a software. | <<AppendixA,Appendix>>
+
+| bmi | Body mass index |
+
+| Java 11 | Java is a general-purpose programming language that is class-based, object-oriented,
+and designed to have as few implementation dependencies as possible. |
 
 |=======================================================================
 [[Appendix]]
