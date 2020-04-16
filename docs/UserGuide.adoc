@@ -1114,7 +1114,7 @@ will be brought to the respective command.
 |Command |Format |Example
 
 |<<addfood, *Adding Food*>>
-|`add -n NAME -c CALORIES [-t TAGS]`
+|`add -n NAME -c CALORIES [-t TAGS]...`
 |`add -n salad -c 235` +
 `add -n fries -c 195 -t fastfood`
 
