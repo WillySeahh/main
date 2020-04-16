@@ -1240,8 +1240,6 @@ or +
 
 | NUS | This is the short form of National University of Singapore. |
 
-| SOC or SoC | This is the short form for School of Computing. |
-
 | CLI | This is the short form for Command Line Interface. It processes commands to
 TA-Tracker in the form of lines of text |
 
