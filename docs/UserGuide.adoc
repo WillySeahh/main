@@ -1263,6 +1263,8 @@ at the bottom represents the end point.
 .Expense Splitter Activity Diagram
 image::ExpenseSplitterActivityDiagramV2.png[width="890"]
 
+{nbsp}
+
 *Simplified Add Item Activity Diagram*  +
 
 This diagram below is used in conjunction with the diagram directly above this.
