@@ -897,15 +897,15 @@ Format: +
 Example: +
 `donereceipt`
 
+[WARNING]
+After you use this command, you will be unable to add any new items using the `additem` command
+or delete any items using the `deleteitem` command.
+
 [[donereceiptexpectedoutcome]]
 *Expected outcome:*
 
 .Expense Splitter Done Receipt Command
 image::donereceipt.png[width="890"]
-
-[WARNING]
-After you use this command, you will be unable to add any new items using the `additem` command
-or delete any items using the `deleteitem` command.
 
 *Additional notes & tips:* +
 
@@ -991,12 +991,6 @@ Format: +
 Valid Example: +
 `clearreceipt`
 
-[[clearreceiptexpectedoutcome]]
-*Expected outcome:*
-
-.Expense Splitter Clear Receipt Command
-image::expensesplitterclearreceiptexpectedoutcome.png[width="890"]
-
 [WARNING]
 ====
 * If you use this command before marking the receipt as done via the `donereceipt` command, you will be removing all the
@@ -1004,6 +998,12 @@ previously inputting items, as well as the amount owed by each person in this re
 * However, if you use this command after marking the receipt as done via the `donereceipt` command, the amount owed by
 each person will still be present and will be accessible via the `listamount` command.
 ====
+
+[[clearreceiptexpectedoutcome]]
+*Expected outcome:*
+
+.Expense Splitter Clear Receipt Command
+image::expensesplitterclearreceiptexpectedoutcome.png[width="890"]
 
 *Additional notes & tips:* +
 
