@@ -1268,11 +1268,24 @@ item in a list.
 | Activity Diagram | This refers to the workflow of a software. | <<AppendixA,Appendix>>
 
 |=======================================================================
-
+== Appendix
 [[AppendixA]]
-== Appendix: Simple activity diagram to aid you with using Expense Splitter +
+=== Appendix A: Simple activity diagram to aid you with using Diet Tracker +
 
-This diagram will help you understand the flow of Expense Splitter, thus improving your user experience.
+This diagram will help you understand the flow of the Diet Tracker, thus improving your user experience.
+
+The fully blackened circle at the top represents the start point while the circle
+at the bottom represents the end point.
+
+.Diet Tracker Activity Diagram
+image::DietTrackerActivityDiagram.png[width="890"]
+
+{nbsp}
+
+[[AppendixB]]
+=== Appendix B: Simple activity diagram to aid you with using Expense Splitter +
+
+This diagram will help you understand the flow of the Expense Splitter, thus improving your user experience.
 
 The fully blackened circle at the top represents the start point while the circle
 at the bottom represents the end point.
