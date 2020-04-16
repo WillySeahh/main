@@ -85,9 +85,6 @@ kbd:[Enter] - This symbol indicates the enter button on the keyboard.
 
 `markup` - A grey highlight (known as a mark-up) indicates a command that can be inputted into EYLAH. +
 
-`[-c Calories]` - For some commands there are optional fields. Keywords placed in square brackets are optional fields. +
-(e.g: `edit INDEX [-n NAME] [-c CALORIES]`)
-
 Lastly, blue underlined words like link:[this] will lead you to other portions of the User Guide or to an external
 website.
 
@@ -1256,8 +1253,6 @@ or +
 
 | NUS | This is the short form of National University of Singapore. |
 
-| SOC or SoC | This is the short form for School of Computing. |
-
 | CLI | This is the short form for Command Line Interface. It processes commands to
 TA-Tracker in the form of lines of text |
 
@@ -1278,6 +1273,8 @@ at the bottom represents the end point.
 
 .Expense Splitter Activity Diagram
 image::ExpenseSplitterActivityDiagramV2.png[width="890"]
+
+{nbsp}
 
 *Simplified Add Item Activity Diagram*  +
 

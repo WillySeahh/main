@@ -3,18 +3,19 @@ start
 
 :Enter Expense Splitter;
 
-if () then ([receiptNotDone])
+if () then ([receiptIsNotDone])
 
-    if () then ([itemToAdd])
-    : @Rake: Visit SimplifiedAddItemActivityDiagram;
+    if () then ([notDoneAddingItems])
+    : Visit SimplifiedAddItemActivityDiagram
+     below this diagram;
     : DoneReceipt;
 
-    else ([receiptDone])
+    else ([finishedAddingItems])
     : Done Receipt;
     endif
 
 
-else ([receiptDone])
+else ([receiptIsDone])
 
 endif
 
