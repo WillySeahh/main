@@ -204,12 +204,12 @@ Valid Example: +
 *Main Menu:*
 
 .Main Menu Help
-image::main_help.png[width="890", height="300"]
+image::main_help.png[width="890"]
 
 *Diet Tracker Mode:*
 
 .Diet Tracker Help
-image::diethelp.png[width="890",height="300"]
+image::diethelp.png[width="890"]
 
 *Expense Splitter Mode:*
 
@@ -725,22 +725,22 @@ image::dietTrackerBackCommandSuccessPhoto.png[width="890"]
 
 //tag::introtoexpensesplitter[]
 === Expense Splitter : `split`
-Getting a headache from splitting *that* ever-so-complicated bill?
+Are you getting a headache from splitting *that* ever-so-complicated bill?
 
 With EYLAH, splitting a large receipt with friends has never been easier! All you have to do is add the item,
 it's price and the names involved in splitting the cost of that item and EYLAH will calculate the rest for you!
 
-We have drawn some diagrams to help you visualize how Expense Splitter works, click <<AppendixA, here>> to find out more!
+We have drawn some diagrams to help you visualize the workflow of
+Expense Splitter. Click <<AppendixA, here>> to find out more!
 
 
-Here are some of the prefixes used:
+Here are some of the prefixes used in Expense Splitter:
 |===
 |*Prefix* | *Representation*
 | -i | Item Name
 | -p | Item Price
 | -n | Name of Person
 |===
-
 
 
 '''
@@ -812,6 +812,7 @@ image::expensesplitterdeleteitemexpectedoutcome.png[width="890"]
 
 [TIP]
 Use `listreceipt` to view your item indices before deletion.
+
 //end::deleteitem[]
 '''
 //tag::listreceipt[]
@@ -882,7 +883,7 @@ image::listamount.png[width="890"]
 
 [NOTE]
 ====
-* The person and amount owed will be automatically saved after each command.
+* The person and the amount they owe you will be automatically saved after each command.
 * A person is automatically removed from the list after they have completely paid the amount they owe you.
 ====
 
@@ -912,6 +913,10 @@ Format: +
 Example: +
 `donereceipt`
 
+[WARNING]
+After you use this command, you will be unable to add any new items using the `additem` command
+or delete any items using the `deleteitem` command.
+
 [[donereceiptexpectedoutcome]]
 *Expected outcome:*
 
@@ -923,10 +928,10 @@ image::donereceipt.png[width="890"]
 [NOTE]
 ====
 * Use this command only after all items have been correctly added to the receipt.
-* After you use this command, you will be unable to add any new items using the `additem` command
-or delete any items using the `deleteitem` command.
-* However, you are now able to use the `paid` command.
+* Now you are able to use the `paid` command!
 ====
+
+
 //end::donereceipt[]
 '''
 //tag::paid[]
@@ -1002,19 +1007,19 @@ Format: +
 Valid Example: +
 `clearreceipt`
 
+[WARNING]
+====
+* If you use this command before marking the receipt as done via the `donereceipt` command, you will be removing all the
+previously inputting items, as well as the amount owed by each person in this receipt.
+* However, if you use this command after marking the receipt as done via the `donereceipt` command, the amount owed by
+each person will still be present and will be accessible via the `listamount` command.
+====
+
 [[clearreceiptexpectedoutcome]]
 *Expected outcome:*
 
 .Expense Splitter Clear Receipt Command
 image::expensesplitterclearreceiptexpectedoutcome.png[width="890"]
-
-[WARNING]
-====
-* If you use this command before marking the receipt as done via the `donereceipt` command, you will be removing all the
-previously inputting items, as well as the amount owed by each person.
-* However, if you use this command after marking the receipt as done via the `donereceipt` command, the amount owed by
-each person will still be present and will be accessible via the `listamount` command.
-====
 
 *Additional notes & tips:* +
 
